@@ -1,0 +1,1 @@
+'Arena' adlı oyunumuz 2 kişilik arena dövüşü oyunudur. Birinci oyuncu 'W-A-S-D-SPACE', ikinci oyuncu '8-4-5-6-RCTRL' tuşları ile hareket ve atışlarını gerçekleştirebilmektedir. Oyunun çalışabilmesi için pygame kütüphanesi importlamanız gerekmektedir.
