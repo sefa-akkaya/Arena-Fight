@@ -9,7 +9,7 @@ from os.path import dirname
   
 mixer.init()    
 pygame.init() 
-
+ 
 others_path = str(dirname(dirname(abspath(__file__)))).replace("\\", "/") + "/Others/"
 
 WIDTH, HEIGHT = 1920,1080
