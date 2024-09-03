@@ -1,4 +1,4 @@
-class Button():
+class Button(): 
 	def __init__(self, image, image_click,pos):
 		self.image = self.defauilt_image = image   
 		self.image_click = image_click  
