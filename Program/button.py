@@ -11,7 +11,7 @@ class Button():
 		if self.image is not None:    
 			screen.blit(self.image, self.rect) 
   
-	def checkForInput(self, position, is_wide): 
+	def checkForInput(self, position, is_wide):  
 		if is_wide: 
 			x_change = 70
 			y_change = 60
