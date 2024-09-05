@@ -17,7 +17,6 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 surface1 = pygame.surface.Surface((1920, 1080))
 clock = pygame.time.Clock()
 
-
 # DO NOT MAKE MORE THAN 4
 sound_multiplier = 3
 
