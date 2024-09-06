@@ -22,7 +22,7 @@ class Button():
 			self.image = self.image_click
 			return True
 		return False
-
+ 
 	def changeColor(self, position, is_wide):
 		if is_wide:
 			x_change = 70
