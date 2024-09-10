@@ -2,7 +2,7 @@ class Button():
 	def __init__(self, image, image_click,pos):
 		self.image = self.defauilt_image = image       
 		self.image_click = image_click      
-		self.x_pos = pos[0]         
+		self.x_pos = pos[0]          
 		self.y_pos = pos[1]          
 		# self.text = self.font.render(self.text_input, True, self .base_color)       
 		self.rect = self.image.get_rect(center=(self.x_pos, self.y_pos))            
