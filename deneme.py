@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
  
 # Task structure to hold task details   
 class Task:     
-    def __init__(self, title, priority, deadline, estimated_time):   
+    def __init__(self, title, priority, deadline, estimated_time):    
         """
         Initializes a task with a title, priority, deadline, and estimated time. 
          
