@@ -10,7 +10,7 @@ class Task:
         :param title: Name of the task
         :param priority: Importance of the task (higher is more important)
         :param deadline: Deadline for the task (datetime object)
-        :param estimated_time: Time (in hours) estimated to complete the task
+        :param estimated_time: Time (in hours) estimated to complete the task  
         """
         self.title = title
         self.priority = priority
