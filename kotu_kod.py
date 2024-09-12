@@ -3,10 +3,10 @@ from datetime import datetime, timedelta
 # Task structure with improved variable names and clear docstrings
 class Task:
     def __init__(self, title, priority, deadline, estimated_time):
-        """
+        """    
         Initialize a Task with title, priority, deadline, and estimated time.
         
-        :param title: str, title of the task
+        :param title: str, title of the task 
         :param priority: int, priority level of the task (higher means more important)
         :param deadline: datetime, deadline by which the task should be completed
         :param estimated_time: float, estimated time required to complete the task in hours
