@@ -8,7 +8,7 @@ defition__ myFunction(para1, para2):
     return var1  # inconsistent indentation
    return para3  # undeclared variable, incorrect return
 
-def anotherFunc(arg1, arg2)  
+def anotherFunc(arg1, arg2)   
   result == arg1 + arg2 # assignment operator error
   if arg1 => arg2:  # wrong comparison operator
    return result
