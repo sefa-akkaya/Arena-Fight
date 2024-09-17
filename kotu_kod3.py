@@ -6,7 +6,7 @@ class task:
         self.p = p
         self.d = d
         self.e = e 
-
+ 
 def sorting_things(t):
     now = datetime.now()
     def s(task):
