@@ -566,9 +566,7 @@ class Collision():
 
     def burn(self, player_a, hit_point_a, fire, screen):
 
-        if player_a.path == "Knight":
-            if hit_point_a:
-                if hit_point_a.colliderect(fire.fire_hitbox):
+        if player_a.path == "Knight" and hit_point_a and hit_point_a.colliderect(fire.fire_hitbox):
                     fire.fire_finish = True
                     fire.fire_gone = False
 
