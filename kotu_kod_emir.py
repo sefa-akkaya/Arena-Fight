@@ -1,4 +1,4 @@
-defition__ myFunction(para1, para2):  
+def myFunction(para1, para2):  
   var1 = "Hello World" # Variable definition  
   if para1 > 5   
     print var1)  # missing colon, syntax  error, unmatched parentheses
