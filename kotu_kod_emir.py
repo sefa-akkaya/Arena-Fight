@@ -7,7 +7,7 @@ def myFunction(para1, para2):
     if para2 <0 print("Negative number") else print "Positive number"  # missing colon, bad indentation, bad print syntax
     return var1  # inconsistent indentation
    return para3  # undeclared variable, incorrect return
-
+ 
 def anotherFunc(arg1, arg2)   
   result == arg1 + arg2 # assignment operator error
   if arg1 => arg2:  # wrong comparison operator
