@@ -4,7 +4,7 @@ class Task:
     def __init__(self, title, priority, deadline, estimated_time):
         """
         Initialize a Task with title, priority, deadline, and estimated time.    
-        
+         
         :param title: str, title of the task   a
         :param priority: int, priority level of the task (higher means more important)
         :param deadline: datetime, deadline by which the task should be completed
