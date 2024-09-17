@@ -1,6 +1,6 @@
 
 from datetime import datetime, timedelta 
- 
+  
 # Task structure to hold task details   
 class Task:     
     def __init__(self, title, priority, deadline, estimated_time):    
