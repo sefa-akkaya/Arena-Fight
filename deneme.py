@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 class Task:     
     def __init__(self, title, priority, deadline, estimated_time):    
         """  
-        Initializes a task with a title, priority, deadline, and estimated time. 
+        Initializes a task with a title, priority, deadline, and estimated time.  
           
         :param title: Name of the task
         :param priority: Importance of the task (higher is more important)
