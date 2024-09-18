@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 
 # Task structure with improved variable names and clear docstrings
-class Task:
+class Task: 
     def __init__(self, title, priority, deadline, estimated_time):
         """
         Initialize a Task with title, priority, deadline, and estimated time.
