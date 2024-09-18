@@ -543,16 +543,14 @@ class Collision():
             player_b.acceleration_value = player_b.default_ac_value
              
     def hit(self, player_a, player_b, hit_point_a, hit_point_b):
-
-        if player_a.path != "Dragon":
-            if hit_point_a:
-                if player_b.hit_rect.colliderect(hit_point_a):
-                    if player_b.path == "Knight" and player_b.on_cooldown == False and player_b.keys[player_b.keyboard1["attack"]] and player_a.path != "Knight":
-                        player_b.on_cooldown = True
-                        player_b.cooldown_start = perf_counter()
-                    elif player_b.hurted == False:
-                        player_b.hurted = True
-                        pygame.mixer.Sound.play(hurt_sound)
+        
+        if player_a.path != "Dragon" and hit_point_a and player_b.hit_rect.colliderect(hit_point_a):
+            if player_b.path == "Knight" and player_b.on_cooldown == False and player_b.keys[player_b.keyboard1["attack"]] and player_a.path != "Knight":
+                player_b.on_cooldown = True
+                player_b.cooldown_start = perf_counter()
+            elif player_b.hurted == False:
+                player_b.hurted = True
+                pygame.mixer.Sound.play(hurt_sound)
 
         if player_b.path != "Dragon":
             if hit_point_b:
