@@ -456,6 +456,8 @@ class Particles:
 
         
         self.image = animation[int(self.frame_index)]
+        if self.facing:
+            self.image = self.image
         else:
             flipped_image = pygame.transform.flip(self.image, True, False)
             self.image = flipped_image
