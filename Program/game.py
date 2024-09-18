@@ -717,7 +717,9 @@ while True:
                 if play_button.checkForInput(menu_mouse_pos, True):
                     character_select = True
                     break
-
+           if a = 5:
+               if b = 3:
+                   break
     if character_select:
 
         quit_button = Button(image=pygame.image.load(others_path+"PNG/buttons/quit.png").convert_alpha(), 
